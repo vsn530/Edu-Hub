@@ -58,7 +58,6 @@ const detectCheating = async (req, res) => {
                     examId: req.body.examId,
                     examType: examType,
                     InstructorEmail: instructors,
-                    //InstructorEmail: ['omarhazem6@gmail.com']
                   }
                 )
                 .then(console.log('lambda called without errors'))
